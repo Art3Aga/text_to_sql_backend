@@ -4,7 +4,7 @@ def connect_to_db():
     try:
         connection = mysql.connector.connect(
             host="localhost",       # Dirección del servidor
-            port=3307,              # Puerto de MySQL
+            port=3306,              # Puerto de MySQL
             user="root",            # Usuario de MySQL
             password="",            # Contraseña del usuario
             database="productos"    # Base de datos a conectar
